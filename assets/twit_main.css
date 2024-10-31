@@ -1,0 +1,99 @@
+#twt-twitter-widget {
+	position: relative;
+}
+@font-face {
+	font-family: SourceSansPro-Semibold;
+	src: url(SourceSansPro-Semibold.otf);
+}
+@font-face {
+	font-family: SourceSansPro-Light;
+	src: url(SourceSansPro-Light.otf);
+}
+#twt-area1 {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 5px solid #00aced;
+	background-color: #fff;
+	position: fixed;
+}
+#twt-area2 {
+	overflow: hidden;
+	text-align: left;
+}
+#twt-area1 img.outer {
+	position: absolute;
+	top: 0px;
+	cursor: pointer;
+	border: 0;
+	z-index: 10000;
+}
+#twt-area1 iframe {
+	border: 0px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.back-bg > h2.top-style {
+	background: #00aced;
+	border-radius: 5px;
+	color: #fff;
+	font-family: SourceSansPro-Semibold;
+	font-size: 28px !important;
+	padding: 15px 0!important;
+	text-align: center;
+	font-weight: normal;
+}
+.back-bg .submit {
+	text-align: center;
+	width: 520px;
+}
+.back-bg .submit .button-success {
+	background: #00aced none repeat scroll 0 0;
+	border: medium none;
+	border-radius: 5px;
+	box-shadow: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 0;
+	padding: 20px;
+	text-shadow: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.back-bg th {
+	color: #00aced;
+	font-size: 16px;
+}
+.back-bg h2 {
+	color: #00aced;
+	font-size: 26px;
+}
+.back-bg .form-table input {
+	background: #fff;
+	border: 1px solid #00aced;
+	height: 35px;
+	width: 300px;
+	color: #666;
+	border-radius: 3px;
+}
+.back-bg select {
+	border: 1px solid #00aced;
+	border-radius: 3px;
+}
+#twt-area1 #twlink:hover{
+	position:initial;
+}
+.open {
+    display: block;
+    visibility: visible;
+}
+	img.outer {
+    max-width: inherit;
+	}
+.error_kudos {
+    color: #f00;
+    padding: 20px 10px 10px;
+}
